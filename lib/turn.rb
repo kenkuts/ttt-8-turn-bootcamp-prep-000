@@ -28,3 +28,8 @@ def move(board, index, mark="X")
   end
   
 end
+
+def turn(board)
+  puts "Please enter 1-9:"
+  
+end
