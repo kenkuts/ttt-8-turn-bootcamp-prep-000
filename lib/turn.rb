@@ -21,3 +21,7 @@ def position_taken?(board, index)
     return false
   end
 end
+
+def move(board, index, mark)
+  
+end
