@@ -23,6 +23,8 @@ def position_taken?(board, index)
 end
 
 def move(board, index, mark="X")
-  while index > 8 || index < 0
-    puts 
+  if valid_move?
+    baord[index] = mark;
+  end
+  
 end
