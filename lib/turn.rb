@@ -34,6 +34,32 @@ def turn(board)
 end
 
 def input_to_index(input)
-  
-  return input.to_i - 1
+  if input.to_i == 0
+    return -1
+  else
+    return input.to_i - 1
+  end
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
