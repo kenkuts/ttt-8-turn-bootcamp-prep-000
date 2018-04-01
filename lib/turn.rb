@@ -46,6 +46,7 @@ def turn(board)
   input = input_to_index(input)
   
   while input > 0 && input < 9
+    puts "Invalid input try again!"
     turn(board)
   end
   
