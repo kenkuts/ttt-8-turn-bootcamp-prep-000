@@ -26,7 +26,7 @@ def move(board, index, mark="X")
   if valid_move?(board, index)
     baord[index] = mark
   end
-  
+  return board
 end
 
 def turn(board)
