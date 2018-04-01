@@ -45,7 +45,7 @@ def turn(board)
   input = gets.chomp
   input = input_to_index(input)
   
-  while input < 0 && input > 9
+  while input > 0 && input < 9
     puts "Invalid input try again!"
     turn(board)
   end
