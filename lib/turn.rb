@@ -6,6 +6,9 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+
+
+
 def valid_move?(board, index)
   if position_taken?(board, index) || index < 0 || index > 9
     return false
@@ -13,6 +16,9 @@ def valid_move?(board, index)
     return true
   end
 end
+
+
+
 
 def position_taken?(board, index)
   if board[index] == "X" || board[index] == "O"
@@ -22,15 +28,24 @@ def position_taken?(board, index)
   end
 end
 
+
+
+
 def move(board, index, mark="X")
   if valid_move?(board, index)
     board[index] = mark
   end
 end
 
+
+
+
 def turn(board)
   puts "Please enter 1-9:"
 end
+
+
+
 
 def input_to_index(input)
   if input.to_i == 0
