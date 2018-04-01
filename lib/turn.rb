@@ -43,6 +43,8 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   input = gets.chomp
+  input = input_to_index(input)
+  while input < 0 || input > 9
 end
 
 
