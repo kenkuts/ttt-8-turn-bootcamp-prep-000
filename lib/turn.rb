@@ -23,7 +23,7 @@ def position_taken?(board, index)
 end
 
 def move(board, index, mark="X")
-  if valid_move?
+  if valid_move?(board, index)
     baord[index] = mark;
   end
   
